@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-#y)t&h@o(7hpk*5w192q%+ng11hoeo)0phj0-*-of=pnw-ud1-'
+SECRET_KEY = 'django-insecure-15ivf_tb)hp5v+^-)nv!-=si$c=2%yjnoo=*-#a0pmqo0)se9t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     "accounts",
     "rest_framework",
     'rest_framework.authtoken',
-
 ]
 
 MIDDLEWARE = [
@@ -128,10 +127,10 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
-AUTH_USER_MODEL = "accounts.User"
+AUTH_USER_MODEL = "accounts.User" 
 CORS_ORIGIN_ALLOW_ALL = True
 
-#----------------Google credential----------------------------#
-GOOGLE_CLIENT_ID = "886854302126-09g0r8lq535thqpebbh13bajgrs1qgjj.apps.googleusercontent.com"
-SOCIAL_SECRET = "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"
+#----------------Gihub credential----------------------------#
+CLIENT_ID = '3cda2d89ec0497e54f92'
+CLIENT_SCERET = "20b028124e67f58e076eee08079a62e122ee751d"
+SOCIAL_SECRET = "20b028124e67f58e076eee08079a62e122ee751d"

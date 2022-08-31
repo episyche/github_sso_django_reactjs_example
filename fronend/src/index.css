@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.github-image{
+  /* background-color: white; */
+  width: 25px;
+  height: 25px;
+  margin-top: 15px; 
+  margin-right: 10px;
+  border-radius:10px ;
+}
+.github{
+  background-color: white;
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 0px black;
+}
+.App{
+  /* background-color: white; */
+  margin-top: 100px;
+  margin-left: 100px;
+  border-radius: 10px;
+}
+.show-user_info{
+  border: solid 1.5px;
+  width: fit-content;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0px black;
+
+  background-color: white;
+}
+.info{
+  width: auto;
+  text-overflow:clip;
+padding-right: 10px;
+}

@@ -7,14 +7,14 @@ from rest_framework.decorators import permission_classes
 
 
 @permission_classes((AllowAny, ))
-class GoogleSocialAuthView(GenericAPIView):
+class GithubSocialAuthView(GenericAPIView):
 
-    serializer_class = GoogleSocialAuthSerializer
+    serializer_class = GithubSocialAuthSerializer
 
     def post(self, request):
         """
         POST with "auth_token"
-        Send an idtoken as from google to get user information
+        Send an access token as from github to get user information
         """
 
         serializer = self.serializer_class(data=request.data)
